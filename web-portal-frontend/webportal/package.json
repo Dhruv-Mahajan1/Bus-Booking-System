@@ -1,0 +1,27 @@
+{
+  "name": "webportal",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "pinia": "^2.1.4",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "vue": "^3.3.4",
+    "vue-loader": "^17.2.2",
+    "vue-router": "^4.2.4",
+    "vue-spinner": "^1.0.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.6"
+  }
+}
